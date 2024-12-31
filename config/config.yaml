@@ -1,4 +1,4 @@
-location: "/home/victor-scht/Documents/Innov+/Data/"
+location: "/mnt/nvme_1/stage/victor/Data"
 directory_name: patch_uniform
 shading:
   status: True
@@ -12,12 +12,11 @@ shading:
       max: 1.2
 generator_image_parameters:
   channels: 1
-  side: 400
-  num_shapes: 3
-generator_images: generate_random_shapes 
+  side: 40
+generator_images: gen_patch_uniform 
 generator_noise: gen_noise_uniform
 generator_noise_parameters:
   max_val: 0.005
   min_val: 0.0001
-n_samples: 1000
+n_samples: 50000
 train_split: 0.8
