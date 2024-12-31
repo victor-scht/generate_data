@@ -140,6 +140,6 @@ def image_generator(parameters):
 
 ![forms](./images/noisy_forms.png)
 
-#### distribtion de SNR
+#### distribution de SNR
 
 ![tag](./images/snr.png)
