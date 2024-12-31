@@ -1,0 +1,23 @@
+location: "/home/victor-scht/Documents/Innov+/Data/"
+directory_name: patch_uniform
+shading:
+  status: True
+  parameters:
+    elevation: 1
+    x_range:
+      min: -0.2
+      max: 1.2
+    y_range:
+      min: -0.2
+      max: 1.2
+generator_image_parameters:
+  channels: 1
+  side: 400
+  num_shapes: 3
+generator_images: generate_random_shapes 
+generator_noise: gen_noise_uniform
+generator_noise_parameters:
+  max_val: 0.005
+  min_val: 0.0001
+n_samples: 1000
+train_split: 0.8

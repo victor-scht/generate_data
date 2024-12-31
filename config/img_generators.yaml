@@ -1,0 +1,19 @@
+generators_imgs:
+  - random_shapes:
+    generator_image_parameters:
+      channels: 1
+      num_shapes: 3
+      side: 400
+    generator_images: generate_random_shapes
+
+  - uniform_patches:
+    generator_images: gen_patch_uniform
+    generator_image_parameters:
+      side: 40
+      channels: 1
+
+  - gen_frequence:
+    generator_image_parameters:
+      side: 100
+      frequence: 2
+    generator_images: gen_freq

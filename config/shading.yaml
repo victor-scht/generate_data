@@ -1,0 +1,10 @@
+shading:
+  status: True
+  parameters:
+    x_range:
+      min: -0.2
+      max: 1.2
+    y_range:
+      min: -0.2
+      max: 1.2
+    elevation: 10
