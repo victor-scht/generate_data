@@ -166,7 +166,7 @@ def gen_freq(parameters):
 
     array = np.zeros((side, side))
     indexes = np.arange(side)
-    dup = np.tile(indexes, (200, 1))
+    dup = np.tile(indexes, (side, 1))
     dup = dup // freq
     array[(dup % 2) == 0] = low
     array[(dup % 2) == 1] = high
