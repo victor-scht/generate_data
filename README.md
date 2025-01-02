@@ -3,9 +3,9 @@
 ## Sommaire
 
 1. [Introduction](#introduction)
-2. [Commandes](#commands)
-3. [Configuration](#config)
-4. [Exemples](#examples)
+2. [Commandes](#commandes)
+3. [Configuration](#configuration)
+4. [Exemples](#exemples)
 
 ## Introduction
 
