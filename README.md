@@ -25,7 +25,7 @@
 - `data_analysis` contient les scripts pour générer des informations statistiques sur les datasets.
 - `main.py` permet de générer un dataset d'images synthétiques grâce au fichier `./config/config.yaml`.
 
-Voir [Configuration](#config) pour plus d'information sur la génération de datasets.
+Voir [Configuration](#configuration) pour plus d'information sur la génération de datasets.
 
 ### Exemples
 
